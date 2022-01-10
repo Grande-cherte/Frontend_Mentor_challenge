@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Info Country</title>
+    <link rel="stylesheet" href="./assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.1/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="./assets/css/jquery-ui.css">
+    <link rel="stylesheet" href="./assets/css/styles.css">
+    <link rel="stylesheet" href="./assets/css/responsive.css">
+</head>
+
+<body class="body body-infos">
+    <nav>
+        <div class="container">
+            <div class="row">
+                <div class="col-6"><a href="javascript:void(0);" class="a-where">Where in the world?</a></div>
+                <div class="col-6 text-end">
+                    <a href="javascript:void(0);" id="mode">
+                        <i class="bi bi-moon">light mode</i></a>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <section class="section-informations">
+        <div class="container">
+            <div class="row">
+                <div class="div-back">
+                    <a class="back-btn" href=""> <i class="bi bi-arrow-left"></i>
+                        &nbsp;&nbsp;&nbsp;Back</a>
+                </div>
+            </div>
+            <div class="row align-items-center">
+                <div class="col-md-6">
+                    <div class="img-info-country">
+                        <img class="img-info" alt="image country">
+                    </div>
+                </div>
+                <div class="col-md-6 parainfo">
+                    <div class="row align-items-center">
+                        <div class="col-md-4">
+                            <h1 class="name-country"></h1>
+                            <span class="span-info">Native Name: </span><small class="NativeName"></small><br>
+                            <span class="span-info">Population: </span><small class="Population"></small><br>
+                            <span class="span-info span-Region">Region: </span><small class="Region"></small><br>
+                            <span class="span-info">Sub Region: </span><small class="SubRegion"></small><br>
+                            <span class="span-info span-capital">Capital: </span><small class="Capital"></small><br>
+                        </div>
+                        <div class="col-md-4">
+                            <span class="span-info">To Level Domain: </span><small class="tld"></small><br>
+                            <span class="span-info span-Currencies">Currencies: </span><small
+                                class="Currencies"></small><br>
+                            <span class="span-info">Languages: </span><small class="Languages"></small><br>
+                        </div>
+                    </div>
+                    <div class="border-Countries d-flex align-items-center flex-wrap">
+                        <span class="span-border">Border Countries</span>
+                        <div class="country-border d-flex">
+                            <a class="border-btn border1">France</a>
+                            <a class="border-btn border2">Germany</a>
+                            <a class="border-btn border3">Netherlands</a>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+    <script src="./assets/js/jquery.min.js"></script>
+    <script src="./assets/js/jquery-ui.js"></script>
+    <script src="./assets/js/script.js"></script>
+
+</body>
+
+</html>

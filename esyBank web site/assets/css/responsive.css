@@ -1,0 +1,431 @@
+@media (min-width: 160px) {
+    /* queries for extra-small-devices  >576px (col-)**/
+    /*examples of devices that fall into this category : Galaxy S5 / iphones: X/6/7/8/6,7,8 plus / pixel 2XL / Pixel2 / Nokia N9/ galaxy s5/s3*/
+    html{
+        font-size: 14px;
+    }
+    .navbar{
+        box-shadow: 0 0 10px #0000002b;
+    }
+    header{
+       background-image: url("../media/icons/bg-intro-mobile.svg") ;
+       background-repeat: no-repeat;
+       background-size: contain;
+       background-color:rgb(250, 250, 250);
+   }
+   header::-webkit-scrollbar {
+    display: none;
+  }
+  .navigation-header a:hover{
+    border-bottom:inherit;
+    color: hsl(136, 65%, 51%);
+}
+   .desktop-mockups{
+    display: none;
+}    
+   .navigation-header{
+       display: none;
+       position: absolute;
+       padding: 20px;
+       top:160%;
+       left:10%;
+       background-color: white;
+       text-align:center;
+       width: 80%;
+       border-radius:5px;
+       z-index: 100;
+   }
+   .navigation-header a{
+       padding:0%;
+       display: block;
+       color: hsl(233, 26%, 24%);
+       line-height:40px;
+   }
+   
+   .active {
+    display: block;
+    }
+    .para-header{
+       text-align:center;
+       padding: 0px 14px 80px 14px;
+   }
+   .h1-para-header{
+       font-size: 2.8rem;
+   }
+   .btn-resquest-header1{
+    display:none;
+    }
+    .div-mockups{
+        position: relative;
+        top: -55px;
+        width: 100%;
+    } 
+    .img-mockups{
+        position: relative;
+        
+        width: 100%;
+    }
+    .col-div-mockups{
+        display: inline-block;
+    } 
+    .cart{
+        margin-top: 20px;
+    }
+    .para-latest-article {
+        padding: 13px 25px 13px 25px;
+    }
+    .div-logo-socialmedia{
+       text-align: center;
+   }
+    .navigation-footer{
+        text-align: center;
+    }
+    .div-btn-footer{
+        text-align: center;
+    }
+    .p-copyright-footer{
+        float: none;
+        text-align: center;
+    }
+    .btn-resquest-footer, .btn-resquest-header2{
+        margin: auto;
+        width: 180px;
+    }
+    .social-media-footer{
+        padding-top:none;
+    }
+  
+    .link-footer{
+        padding: 30px 0px;
+    }
+    .section-why-easybank{
+        text-align: center;
+        padding: 50px 0px;
+    }
+    .h4-service-easybank{
+        margin: 0px;
+        padding: 14px 0px;
+    }
+    .p-service-easybank {
+        padding: 0px 23px;
+    }
+    .h2-latest-article{
+        text-align: center;
+    }
+    .small-para-latest-article{
+        color: hsl(233, 8%, 62%);
+        line-height: 47px;
+        font-size: 12px;
+    }
+    
+    .slideWhy .slick-slide img {
+        display: block;
+        margin: auto;
+    }
+}
+
+@media (min-width: 576px) {
+    /* queries for extra-small-devices  >576px (col-)**/
+    /*examples of devices that fall into this category : Galaxy S5 / iphones: X/6/7/8/6,7,8 plus / pixel 2XL / Pixel2 / Nokia N9/ galaxy s5/s3*/
+}
+@media (min-width: 768px) {
+    /* queries for sm-devices > 768px (col-sm)**/
+    /*examples of devices that fall into this category : BlackBerry Playbook / Microsoft Lumia 550 / Nexus 7 /*/
+    header{
+        background-image: none;
+    }
+    .navigation-header a:hover{
+        border-bottom: 4px solid hsl(136, 65%, 51%);
+        color: hsl(233, 26%, 24%);
+    }
+    .para-header {
+        text-align: center;
+        padding: 112px 14px 112px 14px;
+    }
+    .col-div-mockups{
+        display: none;
+    } 
+    .background-mockups{
+        position: absolute;
+        background: url(../media/icons/bg-intro-desktop.svg) no-repeat right bottom;
+        background-size: cover;
+        background-position: 0% 0%;
+        right: -10%;
+        top: 0%;
+        width: 60%;
+        height: 100%;
+    }
+    .div-mockups {
+        position: absolute;
+        right: -9%;
+        top:-2%;
+        width: 50%;
+    }
+    .div-mockups .img-mockups{
+        width: 400px;
+        height: 600px;
+    }
+    .desktop-mockups{
+        display: inline-block;
+    }   
+    
+}
+@media (min-width: 992px) {
+    /* queries for medium-devices > 992px (col-md)*/
+    /*examples of devices that fall into this category : Ipad / Kindle fire HDX / Ipad mini / Nexus 10  */
+    html{
+        font-family: 'Public Sans', sans-serif;
+        font-size: 14px;
+    }
+    .btn-resquest-header1{
+        display:block;
+        float: right;
+    }
+    .navbar{
+        background-color: rgb(255, 255, 255);
+        z-index: 100;
+        padding: 20px 0px;
+        position: fixed;
+    }
+    .navbar-toggle{
+        display: none;
+        float: right;
+    }
+    .navigation-header{
+        text-align: center;
+        position: relative;
+        padding: 0px;
+        top: 0%;
+        left:0%;
+        display: inline-block;
+    }
+    .navigation-header a{
+        display: inline;
+        line-height: 0px;
+    }
+    .navigation-header a{
+        color: hsl(233, 8%, 62%);
+        text-decoration: none;
+        padding: 30px 4px;
+        font-weight: 300;
+        transition: 0.3s ease-in;
+    }
+    .div-mockups .img-mockups{
+        width: 400px;
+        height: 700px;
+    }
+     .div-mockups {
+        position: absolute;
+        right: -20px;
+        top: -12%;
+    }
+    
+    .btn-navigation{
+        text-align: right;
+    }
+    .btn-resquest{
+        height: 50px;
+        font-weight: 400;
+        border: none;
+        border-radius: 50px;
+        color: white;
+        background-image: linear-gradient(90deg,hsl(136, 65%, 51%),hsl(192, 70%, 51%));
+    }
+    .btn-resquest:hover{
+        background-image: linear-gradient(90deg,hsl(136, 45%, 65%),hsl(191, 36%, 68%));
+    }
+    .btn-resquest-header1{
+         width: 60%;
+    }
+    .btn-resquest-header2{
+        width: 35%;
+    }
+    
+    .para-header{
+       padding: 200px 0px;
+       text-align:left;
+    }
+    .h1-para-header{
+    max-width: 550px;
+    }
+    .p-para-header{
+        padding: 10px 0px;
+        max-width: 450px;
+    }
+    
+    
+    /*****************************section-why-easybank**********************/
+    
+    .section-why-easybank{
+        background-color: hsl(220, 16%, 96%);
+        padding: 100px 0px;
+        text-align: left;
+    }
+    .p-why-easybank{
+        padding: 20px 0px;
+        max-width:696px;
+    }
+    .icon-service-easybank{
+        padding-top:30px ;
+    }
+    .h4-service-easybank{
+        padding: 30px 0px 18px 0px;
+    }
+    .p-service-easybank {
+        padding: 0px;
+    }
+    
+    /***********************section-latest-article******************/
+    .cart{
+        background-color: white;
+        border-radius: 10px;
+    }
+    .section-latest-article{
+        padding: 100px 0px;
+        background-color: rgb(250, 250, 250);
+    }
+  
+    .h2-latest-article{
+        padding-bottom: 30px;
+        text-align: left;
+    }
+    .h6-latest-article:hover{
+        color: hsl(136, 65%, 51%);
+    }
+    .p-latest-article{
+        line-height: 18px;
+      
+    }
+    .img-latest-article{
+        height: 250px;
+    }
+    .img-latest-article img{
+        border-radius: 10px 10px 0 0 ;
+    }
+    
+    /***************************footer*************************/
+    footer{
+        background-color: hsl(233, 26%, 24%);
+        padding: 50px 0px 20px 0px;
+    }
+    
+    footer a{
+        text-decoration: none;
+        color: white;
+    }
+    .btn-resquest-footer, .btn-resquest-header1{
+        width: 200px;
+    }
+    .navigation-footer{
+        text-align: left;
+    }
+    .navigation-footer a{
+        display: block;
+        line-height: 37px;
+    }
+    .navigation-footer a:hover{
+        color: hsl(136, 65%, 51%);
+    }
+    .div-btn-footer{
+        text-align: right;
+    }
+    .social-media-footer{
+        padding-top: 50px;
+    }
+    .div-logo-socialmedia{
+        text-align: left;
+    }
+    .social-media-footer svg:hover .path-color{
+        fill: hsl(136, 65%, 51%);
+        }
+    .social-media-footer a{
+        margin: 5px;
+        
+    }
+    .link-footer {
+        padding:0px;
+    }
+    .p-copyright-footer{
+        padding-top: 30px;
+        float: right;
+        text-align: right;
+    }
+    
+}
+
+@media (min-width: 1024px) {
+    /* queries for medium-devices >1024px (col-md)*/
+    /*examples of devices that fall into this category : Ipad / Kindle fire HDX / Ipad mini / Nexus 10  */
+    .div-mockups {
+        position: absolute;
+        right: -0px;
+        top: -12%;
+    }
+    .div-mockups .img-mockups{
+        width: 700px;
+        height: 900px;
+    }
+    .div-service-easybank{
+        text-align: center;
+    }
+}
+
+@media (min-width:1200px) {
+    /* queries for large-devices > 1200px (col-lg)*/
+    /*examples of devices that fall into this category : Ipad PRO / Laptop with HiDPI screen / Laptop with MDPI screen / Laptop with touch */
+   
+    .slideWhy .slick-slide img {
+        display: block;
+        margin: 0px;
+    }
+    .div-service-easybank{
+        text-align: left;
+    }
+    .navigation-header a{
+        padding: 30px 13px;
+    }
+    .h1-para-header{
+        max-width: 497px;
+        font-size: 3.1rem;
+    }
+    .p-para-header {
+        padding: 10px 0px;
+        max-width: 382px;
+    }
+    .para-header {
+        padding: 170px 0px;
+        text-align: left;
+    }
+    .div-mockups {
+        position: absolute;
+        right: -30px;
+        top: -12%;
+    }
+}
+@media (min-width:1400px) {
+    /* queries for extra-large-devices > 1900px (col-xl)*/
+    /*examples of devices that fall into this category : most descktop screens */
+ html{
+        font-family: 'Public Sans', sans-serif;
+       
+    }
+    .div-mockups {
+        position: absolute;
+        right: -200px;
+        top: -12%;
+    }
+}
+
+@media (min-width:1900px) {
+    /* queries for extra-large-devices > 1900px (col-xl)*/
+    /*examples of devices that fall into this category : most descktop screens */
+    html{
+        font-family: 'Public Sans', sans-serif;
+        font-size: 18px;
+    }
+    .div-mockups {
+        position: absolute;
+        right: -200px;
+        top: -14%;
+    }
+}

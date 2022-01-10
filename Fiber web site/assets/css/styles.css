@@ -1,0 +1,433 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap');
+/* resetting css */
+* {
+    margin: 0px;
+    padding: 0px;
+}
+/* stting standard styles for elements */
+html {
+    font-size: 16px;
+    font-family: 'Inter', sans-serif;
+}
+
+header{
+    background-color: rgb(251, 248, 243);
+}
+.Hamburger-Menu{
+    float: right;
+    z-index: 100;
+}
+.signup-signin-desktop{
+    display: none;
+}
+.logo-menu-nav {
+    padding: 30px 22px;
+    padding-bottom: 0%;
+}
+.img-hero-Illustration img{
+    width: 86%;
+    height: 86%;
+    margin-top: -6%;
+    pointer-events: none;
+}
+.Rated-star{
+    display: none;
+}
+.logo-navbar,.logo-footer{
+    color: black;
+    font-weight: 800;
+    font-size: 1.1rem;
+}
+
+.menu-navigation{
+    display: none;
+    position: fixed;
+    top: 0%;
+    background-color: rgba(76, 19, 209, 0.648);
+    right: 0%;
+    padding-top: 120px;
+    width: 50%;
+    height: 100vh;
+    pointer-events: none;
+}
+.activemenu{
+    display: block;
+}
+.menu-navigation a{
+    color: white;
+    display: block;
+    text-align: center;
+    padding: 10px;
+    pointer-events: painted;
+}
+
+.menu-navigation a:hover{
+    color: black;
+}
+.para-header{
+    padding:16px 22px;
+}
+.span-check-header{
+    color: rgb(91, 91, 91);
+    font-weight: 500;
+}
+.bttn{
+    color: white;
+    background-color:rgb(77,19,209);
+    font-family:  'Inter', sans-serif;
+    border: none;
+    outline: none;
+    font-weight:500;
+    height: 56px;
+    border-radius: 4px;
+}
+.bttn:hover{
+background-color: rgba(76, 19, 209, 0.517);
+}
+.btn-sign-up{
+    width: 108px;
+}
+.signin-nav{
+    color: black;
+    font-weight: 800; 
+}
+.btn-start-free-header{
+  /*  width: 140px;*/
+  width: 97%;
+  font-weight: 500;
+ ;
+}
+.view-exemple-header{
+    color: rgb(77,19,209);
+    font-weight: 700;
+    -webkit-text-decoration: rgb(77,19,209) underline 2px;
+            text-decoration: rgb(77,19,209) underline 2px;
+    padding:  0px 40px;
+    margin: auto;
+    padding: 20px 0px;
+}
+.check-trail {
+    padding: 5px 10px 5px 0px;
+}
+.rated-span{
+    font-weight: 600;
+    font-size: 1.2rem;
+}
+/********************************section-why*********************/
+.section-why{
+    padding: 60px 25px;
+}
+.span-why{
+    color:rgb(77,19,209);
+    font-weight: 700;
+    font-size: 1.1rem;
+}
+.icon-why{
+    width: 35px;
+    height: 35px;
+    margin:  10px 0px;
+}
+.why-title{
+    padding: 15px 0px; 
+}
+/**********************section-diversify****************************/
+.section-diversify {
+    color: white;
+    PADDING: 0px 25px;
+}
+.bg-diversify{
+    background-color: rgb(77,19,209);
+    border-radius: 8px;
+}
+.p-diversify{
+    color: rgba(255, 255, 255, 0.634);
+}
+.div-img-diversify{
+    width: 100%;
+    height: 320px;
+    background: url(../media/Page\ Image.png) no-repeat;
+    background-size: cover;
+    background-position: center;
+    border-radius: 5px 5px 0px 0px;
+}
+.btn-diversify{
+    color: rgb(77,19,209);
+    background-color: white;
+    width: 100%;
+    margin-bottom: 0px;
+    font-weight: 800;
+}
+.btn-diversify:hover{
+    background-color: whitesmoke;
+}
+
+.h2-diversify{
+    padding: 15px 0px  0px  0px; 
+    font-weight: 700; 
+}
+.para-diversify{
+    padding: 39px 34px 0px 34px;
+}
+/**************review******************/
+.review{
+    padding: 65px 20px;
+}
+.para-review{
+    border: 1.9px solid rgb(239, 239, 239);
+    border-radius: 8px;
+    padding: 20px;
+    margin-bottom: 30px;
+}
+.img-person{
+    width: 35px;
+}
+.h4-review{
+    color: rgb(77,19,209);
+    margin-bottom: -10;
+    font-family:  'Inter', sans-serif;
+}
+.span-review{
+    position: relative;
+    top: -15px;
+    font-size: 0.8rem;
+    font-weight: 500;
+    font-family:  'Inter', sans-serif;
+}
+.btn-review{
+    width: 100%;
+    height: 50px;
+    background-color: rgb(255, 255, 255);
+    color: rgb(77,19,209);
+    border-radius: 5px;
+    font-weight: bold;
+    font-family:  'Inter', sans-serif;
+    border: none;
+    border: 1px solid rgb(231, 230, 230);
+}
+.btn-review:hover {
+    background-color: rgba(76, 19, 209);
+    border: none;
+    color: white;
+}
+.p-review{
+    color: black;
+}
+/**************************footer**************/
+footer{
+    background-color: rgb(251, 248, 243);
+    padding: 50px 20px;
+}
+.navigation-footer a{
+    display: block;
+    color: rgb(91, 91, 91);
+    line-height: 31px;
+}
+.navigation-footer a:hover{
+color: rgb(77,19,209);
+}
+
+.para-footer,.navigation-footer{
+    margin-bottom: 30px;
+}
+/**************register*******************/
+.form-register{
+   /* padding: 50px 164px;*/
+    padding: 50px 30px;
+    background-color: white;
+    width: 100vw;
+    height: 100vh;
+}
+
+.form-register .btn{
+    background-color: rgb(77,19,209);
+    font-weight: 600;
+    border: none;
+}
+.form-register .btn:hover{
+    color: rgb(77,19,209);
+    background-color: whitesmoke;
+}
+form i {
+    float: right;
+    cursor: pointer;
+    margin: -43px 20px;
+    color: rgb(198, 198, 198);
+    font-size: 1.6rem;
+}
+label{
+    font-weight: 600;
+    font-family: 'Inter', sans-serif;
+}
+.h1-register{
+    font-size: 2rem;
+    font-weight: 700;
+}
+input,.btn{
+    height: 48px;
+}
+.term-condition-link,.sign-in{
+    color: rgb(77,19,209);
+}
+.term-condition-link{
+    -webkit-text-decoration: rgb(77,19,209) underline 2px;
+            text-decoration: rgb(77,19,209) underline 2px;
+    font-weight: 700;
+}
+#name::-webkit-input-placeholder, #email::-webkit-input-placeholder, #password::-webkit-input-placeholder{
+font-weight: 500;
+color: rgb(190, 190, 190);
+font-family: 'Inter', sans-serif;
+}
+#name::-moz-placeholder, #email::-moz-placeholder, #password::-moz-placeholder{
+font-weight: 500;
+color: rgb(190, 190, 190);
+font-family: 'Inter', sans-serif;
+}
+#name:-ms-input-placeholder, #email:-ms-input-placeholder, #password:-ms-input-placeholder{
+font-weight: 500;
+color: rgb(190, 190, 190);
+font-family: 'Inter', sans-serif;
+}
+#name::-ms-input-placeholder, #email::-ms-input-placeholder, #password::-ms-input-placeholder{
+font-weight: 500;
+color: rgb(190, 190, 190);
+font-family: 'Inter', sans-serif;
+}
+#name::placeholder,#email::placeholder,#password::placeholder{
+font-weight: 500;
+color: rgb(190, 190, 190);
+font-family: 'Inter', sans-serif;
+}
+.slide-register{
+    background-image: radial-gradient(rgb(112, 70, 211),rgb(77,19,209)); 
+    width: 50vw;
+    color: white;
+    height: 100%;
+    display: none;
+}
+.slide{
+    padding: 120px 60px 20px 60px;
+}
+.item img{
+    margin: auto;
+}
+.para-slid{
+    text-align: center;
+}
+.h2-slid{
+    font-weight: 600;
+}
+.p-slid{
+    color: rgba(255, 255, 255, 0.676);
+    font-weight: normal;
+    max-width: 363px;
+    margin: auto;
+}
+.slide-register .owl-theme .owl-nav {
+    display: none;
+}
+
+
+.slide-register .owl-height{
+    height: cover !important;
+}
+
+h1 {
+    font-size: 2rem;
+    font-family: 'Inter', sans-serif;
+    font-weight: 800;
+    font-style: normal;
+    letter-spacing: x/*replace x with a value*/;
+    line-height: x/*replace x with a value*/;
+}
+h2 {
+    font-size: 2rem; 
+    font-family: 'Inter', sans-serif; 
+    font-weight: 700;
+    font-style: normal;
+}
+h3 {
+    font-size: 1rem;
+    font-weight: bold;
+    font-style: normal;
+    letter-spacing: x/*replace x with a value*/;
+    line-height: x/*replace x with a value*/;
+}
+h4 {
+    font-size: 0.8rem;
+    font-weight: bold;
+    font-style: normal;
+    letter-spacing: x/*replace x with a value*/;
+    line-height: x/*replace x with a value*/;
+}
+h5{
+    font-size: 1.1rem;
+    font-family: 'Inter', sans-serif;
+    font-weight: 800;
+}
+p{
+    font-size: 1rem;
+    color: rgb(91, 91, 91);
+    font-family: 'Inter', sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    letter-spacing: x/*replace x with a value*/;
+    line-height: x/*replace x with a value*/;
+}
+ul {
+    font-size: 1rem;
+    font-family: '';
+    font-weight: normal;
+    font-style: normal;
+    letter-spacing: x/*replace x with a value*/;
+    line-height: x/*replace x with a value*/;
+}
+a {
+    font-size: 1rem;
+    font-family: 'Inter', sans-serif;
+    text-decoration: none;
+    font-weight: 500;
+    font-style: normal;
+    letter-spacing: x/*replace x with a value*/;
+    line-height: x/*replace x with a value*/;
+}
+a:hover,
+button:hover {
+   cursor: pointer;
+}
+a:focus,
+button:focus,
+input:focus {
+    outline: 0;
+    box-shadow: none;
+}
+input:focus::-webkit-input-placeholder {
+ color: transparent;
+}
+input:focus::-moz-placeholder {
+ color: transparent;
+}
+input:focus:-ms-input-placeholder {
+ color: transparent;
+}
+input:focus::-ms-input-placeholder {
+ color: transparent;
+}
+input:focus::placeholder {
+ color: transparent;
+}
+textarea:focus::-webkit-input-placeholder {
+ color: transparent;
+}
+textarea:focus::-moz-placeholder {
+ color: transparent;
+}
+textarea:focus:-ms-input-placeholder {
+ color: transparent;
+}
+textarea:focus::-ms-input-placeholder {
+ color: transparent;
+}
+textarea:focus::placeholder {
+ color: transparent;
+}   

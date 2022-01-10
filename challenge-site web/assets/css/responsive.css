@@ -1,0 +1,237 @@
+@media (min-width: 3326px) {
+    /* queries for extra-small-devices  >576px (col-)**/
+    /*examples of devices that fall into this category : Galaxy S5 / iphones: X/6/7/8/6,7,8 plus / pixel 2XL / Pixel2 / Nokia N9/ galaxy s5/s3*/
+    html{
+        font-size: 35px;
+    }
+
+    .para-slide{
+        padding: 25%;
+    }
+    .btn-prev-next{
+        display: flex;
+    }
+    .para-about{
+        padding: 10%;
+    }
+    
+}
+@media (min-width: 3000px){
+    html{
+        font-size: 30px;
+    }
+    h1{
+        font-size: 2,5rem;
+    }
+    .btn-prev-next{
+        display: flex;
+    }
+    .para-slide{
+        padding: 15%;
+    }
+}
+@media (min-width: 2024px) {
+    /* queries for extra-small-devices  >576px (col-)**/
+    /*examples of devices that fall into this category : Galaxy S5 / iphones: X/6/7/8/6,7,8 plus / pixel 2XL / Pixel2 / Nokia N9/ galaxy s5/s3*/
+    html{
+        font-size: 25px;
+    }
+
+    .btn-prev-next{
+        display: flex;
+    }
+
+    .para-slide{
+        padding-top: 16%;
+        padding-bottom: 20%;
+        padding-left: 12%;
+        padding-right: 12%;
+    }
+}
+
+
+
+@media (max-width: 2024px){
+    html{
+        font-size: 16px;
+    }
+    .para-slide p{
+        padding-bottom: 20px;
+        padding-top: 15px;
+    }
+    .para-slide{
+        padding: 10%;
+    }
+    h1{
+        font-size: 2.5rem;
+        line-height: 38px;
+    }
+   
+}
+
+@media (max-width: 1800px){
+    .para-about{
+        padding: 5%;
+    }
+}
+
+@media (max-width: 1700px){
+    .para-slide{
+        padding: 10%;
+    }
+}
+
+@media (max-width: 1600px){
+    .para-slide{
+        padding: 10%;
+    }
+}
+
+@media (max-width: 1500px){
+    .para-slide{
+        padding: 10%;
+    }
+}
+
+@media (max-width: 1400px){
+    .para-slide{
+        padding: 10%;
+    }
+    .para-about{
+        padding: 10%;
+    }
+}
+
+
+@media (max-width: 1200px){
+    html{
+        font-size: 15px;
+    }
+}
+
+@media (max-width: 1090px){
+    html{
+        font-size: 14px;
+    }
+
+    .para-slide{
+        margin: 0%;
+        padding: 10%;
+    }
+}
+
+
+
+@media (max-width: 991px){
+    html{
+        font-size: 13px;
+    }
+    .w-100{
+        position: relative;
+    }
+    .btn-prev-next-respo{
+        display: block;
+        width: 30%;
+        height: 20%;
+        position: absolute;
+        right: 0;
+        bottom: 0;
+        display: flex;
+      }
+      .btn-prev-respo,.btn-next-respo{
+          width: 50%;
+          background-color: hsla(0, 0%, 0%);
+          outline: 0;
+          border: none;
+      }
+
+      .btn-prev-next{
+          display: none;
+      }
+
+      .para-slide{
+          padding-top:4% ;
+          padding-bottom: 8%;
+          padding-right: 10%;
+          padding-left: 10%;
+      }
+}
+
+@media (max-width: 830px){
+    html{
+        font-size: 13px;
+    }
+    .logo-respo,.btn-menu{
+        display: inline-block;
+    }
+    .menu{
+        display: none;
+    }
+
+    @keyframes example {
+        from {padding: 0px;opacity:0.33;}
+        to {padding: 20px;opacity:1;}
+      }
+    .menu-responsive{
+        text-align: center;
+        background-color: white;
+        animation-name: example;
+        animation-duration: 1s;
+        padding: 20px;
+    }
+    .menu-responsive li{
+        display: inline-block;
+        list-style: none;
+        padding: 10px;
+    }
+    .menu-responsive li a{
+        text-decoration: none;
+        color: black;
+        font-weight: bold;
+    }
+    .close-btn{
+        float: left;
+    }
+    .para-slide{
+         padding-top:6% ;
+         padding-bottom: 20%;
+     }
+}
+
+
+@media (max-width: 768px){
+    html{
+        font-size: 15px;
+    }
+}
+
+@media (max-width: 600px){
+    html{
+        font-size: 12.5px;
+    }
+    h1{
+        font-size: 2,5rem;
+    }
+}
+
+@media (max-width: 400px){
+    .para-about h5{
+        letter-spacing: 3px;
+        font-weight: bold;
+        margin-bottom: 10px;
+    }
+    .img-slid-mobile{
+        display: block;
+    }
+    .img-slid-desktop{
+        display: none;
+    }
+}
+
+@media (max-width: 375px){
+    
+    html{
+        font-size: 10px;
+    }
+}
+

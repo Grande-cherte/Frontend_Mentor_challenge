@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Create account</title>
+    <link rel="stylesheet" href="./assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.1/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="assets/css/owl.carousel.min.css">
+    <link rel="stylesheet" href="assets/css/owl.theme.default.css">
+    <link rel="stylesheet" href="./assets/css/styles.css">
+    <link rel="stylesheet" href="./assets/css/responsive.css">
+</head>
+
+<body>
+    <main class="main">
+        <div class="d-flex  div-main">
+            <div class="form-register">
+                <div class="logo-fiber-Register mb-5">
+                    <a href="index.html" class="logo-navbar ">Fiber</a>
+                </div>
+                <h1 class="h1-register mb-5">Create your Fiber account</h1>
+                <form action="" class="form">
+                    <div class="mb-3">
+                        <label for="name" class="form-label">Your Name</label>
+                        <input type="text" class="form-control" id="name" placeholder="John Deo">
+                    </div>
+                    <div class="mb-3">
+                        <label for="email" class="form-label">E-mail</label>
+                        <input type="email" class="form-control" id="email" placeholder="john@example.com">
+                    </div>
+                    <div class="mb-4">
+                        <label for="pass" class="form-label">Password</label>
+                        <input type="password" class="form-control" name="password" id="password"
+                            placeholder="At latest 8 characters">
+                        <i class="bi bi-eye-slash-fill" id="togglePassword"></i>
+                    </div>
+                    <div class="mb-4 form-check">
+                        <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                        <p class="form-check-label" for="exampleCheck1">By creating an account on fiber, you
+                            agreet
+                            to the <br>
+                            <a href="javascript:void(0)" class="term-condition-link">Term & conditons.</a>
+                        </p>
+                    </div>
+                    <div class="mb-3">
+                        <button type="submit" class="btn btn-primary form-control">Create Fiber Account</button>
+                    </div>
+                    <div class="mb-3 text-center">
+                        <p class="form-label">Already have a accoount?
+                            <a href="javascript:void(0)" class="sign-in">Sign in</a>
+                        </p>
+                    </div>
+                </form>
+            </div>
+            <div class="slide-register">
+                <div class="owl-carousel owl-theme">
+                    <div class="slide item">
+                        <div class="img-slid text-center">
+                            <img src="./assets/media/Signup.png" class="w-75" alt="slid1">
+                        </div>
+                        <div class="para-slid">
+                            <h2 class="h2-slid mt-3">Unparalleled Template</h2>
+                            <p class="p-slid">Crafted by a team of professional designers, our templates are
+                                eunparallaled in the market.</p>
+                        </div>
+                    </div>
+                    <div class="slide item">
+                        <div class="img-slid text-center">
+                            <img src="./assets/media/Signup.png" class="w-75" alt="slid1">
+                        </div>
+                        <div class="para-slid">
+                            <h2 class="h2-slid mt-3">Unparalleled Template</h2>
+                            <p class="p-slid">Crafted by a team of professional designers, our templates are
+                                eunparallaled in the market.</p>
+                        </div>
+                    </div>
+                    <div class="slide item">
+                        <div class="img-slid text-center">
+                            <img src="./assets/media/Signup.png" class="w-75" alt="slid1">
+                        </div>
+                        <div class="para-slid">
+                            <h2 class="h2-slid mt-3">Unparalleled Template</h2>
+                            <p class="p-slid">Crafted by a team of professional designers, our templates are
+                                eunparallaled in the market.</p>
+                        </div>
+                    </div>
+                    <div class="slide item">
+                        <div class="img-slid text-center">
+                            <img src="./assets/media/Signup.png" class="w-75" alt="slid1">
+                        </div>
+                        <div class="para-slid">
+                            <h2 class="h2-slid mt-3">Unparalleled Template</h2>
+                            <p class="p-slid">Crafted by a team of professional designers, our templates are
+                                eunparallaled in the market.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+    <script src="./assets/js/jquery.min.js"></script>
+    <script src="./assets/js/owl.carousel.min.js"></script>
+    <script>
+        $('.owl-carousel').owlCarousel({
+            loop: true,
+            margin: 40,
+            nav: true,
+            autoHeight: true,
+            autoplay: true,
+            transitionStyle: "fade",
+            responsive: true,
+            responsive: {
+                0: {
+                    items: 1
+                }
+            }
+        })
+
+        const togglePassword = document.querySelector('#togglePassword');
+        const password = document.querySelector('#password');
+
+        togglePassword.addEventListener('click', function (e) {
+            // toggle the type attribute
+            const type = password.getAttribute('type') === 'password' ? 'text' : 'password';
+            password.setAttribute('type', type);
+            // toggle the eye / eye slash icon
+            this.classList.toggle('bi-eye');
+        });
+    </script>
+</body>
+
+</html>

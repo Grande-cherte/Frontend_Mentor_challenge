@@ -1,0 +1,213 @@
+@media (min-width: 160px) {
+    /* queries for extra-small-devices  >576px (col-)**/
+    /*examples of devices that fall into this category : Galaxy S5 / iphones: X/6/7/8/6,7,8 plus / pixel 2XL / Pixel2 / Nokia N9/ galaxy s5/s3*/
+    h1 {
+        font-size: 2rem;
+        font-family: 'Rubik', sans-serif;
+        color: white;
+        font-weight: 500;
+        font-style: normal;
+        letter-spacing: x/*replace x with a value*/;
+        line-height: x/*replace x with a value*/;
+    }
+    h2 {
+        font-size: 1.75rem;
+        font-family: '';
+        font-weight: bold;
+        font-style: normal;
+        letter-spacing: x/*replace x with a value*/;
+        line-height: x/*replace x with a value*/;
+    }
+    h3 {
+        font-size: 1.5rem;
+        font-family: 'Rubik', sans-serif;
+        color: white;
+        font-weight: 500;
+        font-style: normal;
+        letter-spacing: x/*replace x with a value*/;
+        line-height: x/*replace x with a value*/;
+    }
+    h4 {
+        font-size: 1.2rem;
+        font-family: '';
+        font-weight: bold;
+        font-style: normal;
+        letter-spacing: x/*replace x with a value*/;
+        line-height: x/*replace x with a value*/;
+    }
+    h5{
+        font-size: 0.7rem;
+        font-family: 'Rubik', sans-serif;
+        color: hsl(0, 0%, 59%);
+        font-weight: 700;
+        letter-spacing: 1.5px;
+        text-align: center;
+    }
+    p {
+        font-size: 1.1rem;
+        font-family: 'Rubik', sans-serif;
+        font-weight: 500;
+        font-style: normal;
+        text-align: center;
+        letter-spacing: x/*replace x with a value*/;
+        line-height: x/*replace x with a value*/;
+    }
+    .div-info{
+        border-right: none;
+    }
+    .entete{
+        height: 500px;
+    }
+    #map{
+        width: 100%;
+        height: calc(1000px - 500px);
+    }
+}
+
+@media (min-width: 576px) {
+    /* queries for extra-small-devices  >576px (col-)**/
+    /*examples of devices that fall into this category : Galaxy S5 / iphones: X/6/7/8/6,7,8 plus / pixel 2XL / Pixel2 / Nokia N9/ galaxy s5/s3*/
+}
+@media (min-width: 768px) {
+    /* queries for sm-devices > 768px (col-sm)**/
+    /*examples of devices that fall into this category : BlackBerry Playbook / Microsoft Lumia 550 / Nexus 7 /*/
+}
+@media (min-width: 992px) {
+    /* queries for medium-devices > 992px (col-md)*/
+    /*examples of devices that fall into this category : Ipad / Kindle fire HDX / Ipad mini / Nexus 10  */
+}
+
+@media (min-width: 1024px) {
+    /* queries for medium-devices >1024px (col-md)*/
+    /*examples of devices that fall into this category : Ipad / Kindle fire HDX / Ipad mini / Nexus 10  */
+    * {
+        margin: 0px;
+        padding: 0px;
+       box-sizing: border-box; 
+    }
+    /* stting standard styles for elements */
+    html {
+        font-size: 18px;
+        font-family: 'Rubik', sans-serif;
+    }
+    .entete{
+        background-image: url(../media/pattern-bg.png);
+        background-repeat: no-repeat;
+        background-size:cover;
+        background-position: center center;
+        text-align: center;
+        position: relative;
+        height: 300px;
+    }
+    .infos{
+        z-index: 2200;
+    }
+    
+    input[type="search"]{
+        width: 500px;
+        height: 65px;
+        border: none;
+        border-radius: 16px 0px  0px 16px  !important;
+        cursor: pointer;
+    }
+    
+    input[type="search"]::placeholder{
+        font-weight: 400;
+        font-size: 1.2rem;
+        color: hsl(0, 0%, 68%);
+    }
+    .btn-search{
+        color: white;
+        background-color: black;
+        border: none;
+        border-radius: 0px 16px 16px 0px ;
+        height: 65px;
+        width: 65px;
+        font-size: 1.5rem;
+    }
+    
+    .btn-search:hover{
+        background-color: rgb(73, 73, 73);
+    }
+    
+    .infos{
+        background-color: white;
+        padding: 40px 25px;
+        border-radius: 10px;
+        margin: 30px;
+        box-shadow: 10px 10px 50px rgba(77, 77, 77, 0.517);
+        position: relative;
+        
+    }
+    .div-info{
+        border-right: 2px solid hsl(0, 0%, 78%);
+    }
+    #map{
+        width: 100%;
+        height: calc(100vh - 300px);
+    }
+    .last-info{
+        border-right:none
+    } 
+    h1 {
+        font-size: 2rem;
+        font-family: 'Rubik', sans-serif;
+        color: white;
+        font-weight: 500;
+        font-style: normal;
+        letter-spacing: x/*replace x with a value*/;
+        line-height: x/*replace x with a value*/;
+    }
+    h2 {
+        font-size: 1.75rem;
+        font-family: '';
+        font-weight: bold;
+        font-style: normal;
+        letter-spacing: x/*replace x with a value*/;
+        line-height: x/*replace x with a value*/;
+    }
+    h3 {
+        font-size: 1.5rem;
+        font-family: 'Rubik', sans-serif;
+        color: white;
+        font-weight: 500;
+        font-style: normal;
+        letter-spacing: x/*replace x with a value*/;
+        line-height: x/*replace x with a value*/;
+    }
+    h4 {
+        font-size: 1.2rem;
+        font-family: '';
+        font-weight: bold;
+        font-style: normal;
+        letter-spacing: x/*replace x with a value*/;
+        line-height: x/*replace x with a value*/;
+    }
+    h5{
+        font-size: 0.7rem;
+        font-family: 'Rubik', sans-serif;
+        text-align: left;
+        color: hsl(0, 0%, 59%);
+        font-weight: 700;
+        letter-spacing: 1.5px;
+    }
+    p {
+        font-size: 1.1rem;
+        font-family: 'Rubik', sans-serif;
+        font-weight: 500;
+        font-style: normal;
+        text-align: left;
+        letter-spacing: x/*replace x with a value*/;
+        line-height: x/*replace x with a value*/;
+    }   
+}
+
+@media (min-width:1200px) {
+    /* queries for large-devices > 1200px (col-lg)*/
+    /*examples of devices that fall into this category : Ipad PRO / Laptop with HiDPI screen / Laptop with MDPI screen / Laptop with touch */
+}
+
+@media (min-width:1900px) {
+    /* queries for extra-large-devices > 1900px (col-xl)*/
+    /*examples of devices that fall into this category : most descktop screens */
+}

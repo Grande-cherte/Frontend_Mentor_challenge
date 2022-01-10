@@ -1,0 +1,183 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;500;700&display=swap');
+/* resetting css */
+* {
+    margin: 0px;
+    padding: 0px;
+}
+/* stting standard styles for elements */
+html {
+    font-size: 24px;
+}
+body {
+    height: auto;
+    
+}
+
+main{
+    height:100vh;
+}
+
+.back-body{
+    bottom: 0;
+    left: 0;
+    z-index: -1;
+}
+
+.back-body img {
+    width:100%;
+    height:100%;
+}
+
+.para-slide{
+    position:relative;
+    padding:40px 0px 0px 0px;
+    width:100%;
+    margin: 40px 0px 0px 0px;
+}
+
+.bg-para {
+    position: absolute;
+    top: 0%;
+    left: 45%;
+}
+
+.background-main{
+    position:absolute;
+    bottom: 0px;
+    left: 0px;
+}
+.div-img-slide{
+    position:relative;
+    padding:40px 0px;
+}
+.div-next-prev {
+    position: absolute;
+    background-color: white;
+    left: 30%;
+    bottom: 4%;
+    border-radius: 50px;
+    width: 120px;
+    padding: 16px 0px;
+    box-shadow: 0px 4px 13px  #a49ec547;
+}
+.bg-person{
+    position:absolute;
+    top:0px;
+    left:0px;
+    z-index: -1;
+}
+.name-person {
+    font-size: 0.7rem;
+    font-weight: 700;
+    padding-right: 15px;
+    color: hsl(240, 38%, 20%);
+}
+.job-person{
+    color: hsl(240, 18%, 77%);
+    font-size: 0.7rem; 
+    font-weight: 500;
+}
+.p-slide,.name-person-job{
+    animation: 1s ttrf;
+}
+
+@keyframes ttrf{
+    from{transform: translate(-70vw, 0);}
+    to{transform: translate(0vw, 0);}
+}
+.div-img-slide{
+    animation:op 1s ease-out;
+}
+
+@keyframes op{
+    from{opacity:0.5;transform: scale(0.9,0.9);z-index: 1;}
+    to{opacity:1;transform: scale(1,1);z-index: 1;}
+}
+
+.p-slide,.name-person-job{
+   text-align:center;
+}
+
+.img-person {
+    width: 90%;
+    height: 90%;
+    box-shadow: -8px 8px 9px #6451cb21;
+}
+
+h1 {
+    font-size: 2rem;
+    font-family: '';
+    font-weight: bolder;
+    font-style: normal;
+    letter-spacing: x/*replace x with a value*/;
+    line-height: x/*replace x with a value*/;
+}
+h2 {
+    font-size: 1.75rem;
+    font-family: '';
+    font-weight: bold;
+    font-style: normal;
+    letter-spacing: x/*replace x with a value*/;
+    line-height: x/*replace x with a value*/;
+}
+h3 {
+    font-size: 1.5rem;
+    font-family: '';
+    font-weight: bold;
+    font-style: normal;
+    letter-spacing: x/*replace x with a value*/;
+    line-height: x/*replace x with a value*/;
+}
+h4 {
+    font-size: 1.2rem;
+    font-family: '';
+    font-weight: bold;
+    font-style: normal;
+    letter-spacing: x/*replace x with a value*/;
+    line-height: x/*replace x with a value*/;
+}
+p {
+    font-size: 1rem;
+    font-family: 'Inter', sans-serif;
+    font-weight: 300;
+    color:hsl(240, 38%, 20%);
+    font-style: normal;
+    letter-spacing: x/*replace x with a value*/;
+    line-height: x/*replace x with a value*/;
+}
+ul {
+    font-size: 1rem;
+    font-family: '';
+    font-weight: normal;
+    font-style: normal;
+    letter-spacing: x/*replace x with a value*/;
+    line-height: x/*replace x with a value*/;
+}
+a {
+    font-size: 1rem;
+    font-family: '';
+    font-weight: normal;
+    font-style: normal;
+    letter-spacing: x/*replace x with a value*/;
+    line-height: x/*replace x with a value*/;
+}
+a:hover,
+button:hover {
+   cursor: pointer;
+}
+a:focus,
+button:focus,
+input:focus {
+    outline: 0;
+    box-shadow: none;
+}
+input:focus::placeholder {
+ color: transparent;
+}
+textarea:focus::placeholder {
+ color: transparent;
+}
+
+.slick-next{
+    content: 'heu';
+}

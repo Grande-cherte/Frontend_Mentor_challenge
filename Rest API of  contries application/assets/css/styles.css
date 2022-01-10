@@ -1,0 +1,249 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@300;600;800&display=swap');
+/* resetting css */
+* {
+    margin: 0px;
+    padding: 0px;
+}
+/* stting standard styles for elements */
+html {
+    font-size: 16px;
+}
+
+body{
+    background-color: hsl(207, 26%, 17%);
+    font-family: 'Nunito Sans', sans-serif;
+}
+
+
+.bgwhite{
+    background-color: hsl(0, 0%, 98%) !important;
+    
+}
+
+.txt-light{
+    color: black;
+}
+
+.search-icon-light{
+    color: hsl(0, 0%, 52%)!important;
+}
+
+
+nav{
+    background-color: hsl(209, 23%, 22%);
+    padding: 20px 0px;
+    box-shadow: 0 0 10px hsl(210, 29%, 9%);
+}
+
+
+nav .a-where{
+    font-size: 1.1rem;
+    font-weight: 600;
+}
+nav a{
+    color: white;
+}
+
+.search-section{
+    padding: 40px 0px;
+}
+.row-container{
+    padding: 0% 12px;
+}
+#search-icon{
+    color: white;
+    position: absolute;
+    top: 18px;
+    left: 25px;
+}
+.colorDark{
+    color: black;
+}
+.btn-voir-plus{
+    background-color: hsl(209, 23%, 22%);
+    width: 120px;
+    height:50px;
+    border: none;
+    outline: none;
+    border-radius: 10px;
+    box-shadow: 0 0 10px hsl(210, 29%, 9%);
+    color:white;
+    font-weight: bold;
+}
+.parainfo .name-country{
+    font-size: 2rem;
+}
+.div-srch{
+    position: relative;
+}
+
+/********c||||ard**********/
+.card-country{
+    background-color: hsl(209, 23%, 22%);
+    border-radius: 5px;
+    margin:  0px 12px 50px 12px;
+    box-shadow: 0 0 10px hsl(210, 29%, 9%);
+    cursor: pointer;
+    
+}
+
+.card-country:hover{
+    opacity: 0.5;
+}
+
+
+.serch,select{
+    background-color: hsl(209, 23%, 22%) !important;
+    color: white !important;
+    height: 50px;
+    border: none !important;
+    box-shadow: 0 0 10px hsla(210, 30%, 9%, 0.565);
+}
+.light{
+    background-color: White !important;
+    box-shadow: 0 0 10px hsla(0, 0%, 52%, 0.386) !important;
+    color: black!important;  
+}
+.serch{
+    padding: 0.375rem 3.9rem !important;
+}
+.form-control {
+    display: block;
+    width: 100%;
+}
+.border-btn{
+    background-color: hsl(209, 23%, 22%);
+    color: white;
+    padding: 5px 30px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px hsl(210, 29%, 9%);
+}
+.back-btn{
+    background-color: hsl(209, 23%, 22%);
+    color: white;
+    padding: 8px 23px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px hsl(210, 29%, 9%);
+}
+.country-border{
+    margin:10px 0px 10px 0px;
+}
+.span-border,.border-btn{
+    margin-right: 10px;
+}
+.section-informations{
+    margin:0px 20px 20px 20px;
+}
+.div-back{
+    padding: 70px 12px;
+}
+.img-info{
+    width: 100%;
+    margin-bottom: 30px;
+}
+
+.border-Countries{
+    padding:40px 0px 0px 0px;
+}
+span,small{
+    color: white;
+    line-height: 30px;
+}
+span{
+    font-size: 0.8rem;
+    font-weight: 600;
+}
+small{
+    font-size: 0.7rem;
+    font-weight: 300;
+}
+.image-country{
+    height: 220px;
+}
+
+.image-country img{
+    border-radius: 5px 5px 0px 0px;
+    height: 100%;
+    width: 100%;
+}
+
+.info-country{
+    padding: 30px;
+}
+
+
+
+h1 {
+    font-size: 1rem;
+    color: white;
+    font-weight: bolder;
+    font-style: normal;
+    letter-spacing: x/*replace x with a value*/;
+    line-height: x/*replace x with a value*/;
+}
+h2 {
+    font-size: 1.75rem;
+    font-family: '';
+    font-weight: bold;
+    font-style: normal;
+    letter-spacing: x/*replace x with a value*/;
+    line-height: x/*replace x with a value*/;
+}
+h3 {
+    font-size: 1.5rem;
+    font-family: '';
+    font-weight: bold;
+    font-style: normal;
+    letter-spacing: x/*replace x with a value*/;
+    line-height: x/*replace x with a value*/;
+}
+h4 {
+    font-size: 1.2rem;
+    font-family: '';
+    font-weight: bold;
+    font-style: normal;
+    letter-spacing: x/*replace x with a value*/;
+    line-height: x/*replace x with a value*/;
+}
+p {
+    font-size: 1rem;
+    font-family: '';
+    font-weight: normal;
+    font-style: normal;
+    letter-spacing: x/*replace x with a value*/;
+    line-height: x/*replace x with a value*/;
+}
+ul {
+    font-size: 1rem;
+    font-family: '';
+    font-weight: normal;
+    font-style: normal;
+    letter-spacing: x/*replace x with a value*/;
+    line-height: x/*replace x with a value*/;
+}
+a {
+    text-decoration: none;
+    font-size: 1rem;
+    font-weight: normal;
+    font-style: normal;
+    letter-spacing: x/*replace x with a value*/;
+    line-height: x/*replace x with a value*/;
+}
+a:hover,
+button:hover {
+   cursor: pointer;
+}
+a:focus,
+button:focus,
+input:focus {
+    outline: 0;
+    box-shadow: none;
+}
+input:focus::placeholder {
+ color: transparent;
+}
+textarea:focus::placeholder {
+ color: transparent;
+}
+
+
